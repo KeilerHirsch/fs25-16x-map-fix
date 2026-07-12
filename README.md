@@ -67,7 +67,8 @@ A separate little mod that raises FS25's ~4 GB texture-streaming cap to your car
 
 ## License
 
-- **Documentation**: [CC BY 4.0](LICENSE)
-- **Tool code** (`tool/`): GNU **GPLv3** (see the file headers) — forks must keep the attribution and license.
+**GPLv3** — see [LICENSE](LICENSE). Forks and PRs are welcome; keep the attribution (KeilerHirsch) and the same license. The bundled `grleconvert.exe` is third-party (Paint-a-Farm/grleconvert, MIT).
+
+The root-cause **writeup** (the analysis/prose in this README) may additionally be reused under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) with attribution — quote the diagnosis freely.
 
 Maintained by **KeilerHirsch**.

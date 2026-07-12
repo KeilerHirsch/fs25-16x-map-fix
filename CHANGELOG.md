@@ -4,6 +4,15 @@ All notable changes to the **BigMap Optimizer** tool are documented here.
 The format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and the project adheres to [Semantic Versioning](https://semver.org/).
 
+## [1.1.3] - 2026-07-12
+
+### Changed
+- Repo now carries **GPLv3** at the root LICENSE. The tool code was already GPLv3
+  in the file headers; this makes GitHub detect and display GPL-3.0 instead of the
+  documentation's CC-BY, matching the KeilerHirsch default and removing the
+  "why does it say CC-BY?" confusion. The root-cause writeup prose stays reusable
+  under CC-BY-4.0 with attribution. No code change.
+
 ## [1.1.2] - 2026-07-12
 
 ### Fixed
