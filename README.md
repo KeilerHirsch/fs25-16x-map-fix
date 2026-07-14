@@ -15,7 +15,7 @@
 
 <div align="center">
 
-<img src="assets/showcase.svg" width="820" alt="Before/after: a 16x FS25 map going from 878,987 allocReg errors to 0 in multiplayer"/>
+<img src="assets/showcase.png" width="820" alt="Before/after: a 16x FS25 map going from 878,987 allocReg errors to 0 in multiplayer"/>
 
 </div>
 
