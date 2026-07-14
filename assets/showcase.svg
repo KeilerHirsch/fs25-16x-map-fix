@@ -1,62 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" role="img" aria-label="Terminal-style showcase: the 16x Map Fix tool taking a 16x FS25 map from 878,987 allocReg errors to 0, playable in multiplayer">
-  <defs>
-    <clipPath id="win"><rect x="24" y="24" width="1232" height="592" rx="12"/></clipPath>
-  </defs>
-
-  <!-- canvas -->
-  <rect x="0" y="0" width="1280" height="640" fill="#010409"/>
-
-  <!-- terminal window -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" font-family="'Cascadia Code','JetBrains Mono',Consolas,'Courier New',monospace" role="img" aria-label="16x Map Fix terminal showcase"><defs><clipPath id="win"><rect x="24" y="24" width="1232" height="592" rx="12"/></clipPath></defs><rect x="0" y="0" width="1280" height="640" fill="#010409"/>
   <rect x="24" y="24" width="1232" height="592" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
-
-  <!-- title bar -->
-  <g clip-path="url(#win)">
-    <rect x="24" y="24" width="1232" height="46" fill="#161b22"/>
-    <line x1="24" y1="70" x2="1256" y2="70" stroke="#30363d" stroke-width="1"/>
-  </g>
-  <circle cx="52" cy="47" r="7" fill="#ff5f56"/>
-  <circle cx="76" cy="47" r="7" fill="#febc2e"/>
+  <g clip-path="url(#win)"><rect x="24" y="24" width="1232" height="46" fill="#161b22"/>
+    <line x1="24" y1="70" x2="1256" y2="70" stroke="#30363d" stroke-width="1"/></g>
+  <circle cx="52" cy="47" r="7" fill="#ff5f56"/><circle cx="76" cy="47" r="7" fill="#febc2e"/>
   <circle cx="100" cy="47" r="7" fill="#27c93f"/>
   <text x="640" y="52" fill="#8b949e" font-size="16" text-anchor="middle">gsoc@katana: ~/fs25/16x-map-fix</text>
   <text x="1236" y="52" fill="#6e7681" font-size="15" text-anchor="end">16xmapfix v1.1.4</text>
-
-  <!-- command -->
-  <text x="56" y="118" font-size="19">
-    <tspan fill="#3fb950">gsoc@katana</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~/fs25/16x-map-fix</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">16xmapfix ./bigmap16.zip</tspan>
-  </text>
-
-  <!-- output: aligned two columns -->
-  <g font-size="18">
-    <text x="56" y="164" fill="#c9d1d9">▸ scan density layers</text>
-    <text x="640" y="164" fill="#8b949e">16384px <tspan fill="#e6edf3">found</tspan></text>
-
-    <text x="56" y="200" fill="#c9d1d9">▸ resample → 8192px  <tspan fill="#6e7681">(nearest-neighbour)</tspan></text>
-    <rect x="640" y="184" width="58" height="24" rx="5" fill="#238636"/>
-    <text x="669" y="201" fill="#e6edf3" text-anchor="middle" font-size="14" font-weight="700">OK</text>
-
-    <text x="56" y="236" fill="#c9d1d9">▸ heightmap  2ⁿ+1 grid</text>
-    <text x="640" y="236" fill="#39c5cf">left byte-exact</text>
-
-    <text x="56" y="272" fill="#c9d1d9">▸ fields &amp; crops</text>
-    <text x="640" y="272" fill="#39c5cf">preserved · 99.9% pixel-identical</text>
-  </g>
-
-  <!-- headline result -->
-  <text x="56" y="322" fill="#8b949e" font-size="15" letter-spacing="1">// GIANTS' hidden multiplayer ceiling — closed</text>
-  <text x="56" y="384" font-size="46" font-weight="800">
-    <tspan fill="#f85149">878,987</tspan><tspan fill="#6e7681" font-size="34">  ──▶  </tspan><tspan fill="#3fb950">0</tspan><tspan fill="#8b949e" font-size="22" font-weight="600">  allocReg errors</tspan>
-  </text>
-
-  <!-- status lines -->
-  <text x="56" y="436" font-size="19"><tspan fill="#3fb950" font-weight="700">✓ playable in multiplayer</tspan><tspan fill="#8b949e">  ·  x4+ stable</tspan></text>
-  <text x="56" y="466" font-size="16" fill="#6e7681">the 262 GB dedicated server that still crashed? now runs on a 16 GB client.</text>
-
-  <!-- live prompt + cursor -->
-  <text x="56" y="512" font-size="19"><tspan fill="#3fb950">gsoc@katana</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~/fs25/16x-map-fix</tspan><tspan fill="#8b949e">$ </tspan></text>
-  <rect x="470" y="497" width="11" height="20" fill="#3fb950"/>
-
-  <!-- footer bar -->
   <line x1="24" y1="566" x2="1256" y2="566" stroke="#30363d" stroke-width="1"/>
-  <text x="56" y="596" font-size="15" fill="#6e7681">GPLv3 · Windows · single binary · bundles grleconvert (MIT)</text>
-  <text x="1224" y="596" font-size="15" fill="#d29922" text-anchor="end">[ KeilerHirsch ]</text>
-</svg>
+  <text x="56" y="596" font-size="15" fill="#6e7681">GPLv3 &#183; Windows &#183; single binary &#183; bundles grleconvert (MIT)</text>
+  <text x="1200" y="596" font-size="15" fill="#d29922" text-anchor="end" letter-spacing="0.5">keilerhirsch</text>
+  <rect x="1211" y="582" width="10" height="16" fill="#3fb950"/><text x="56" y="118" font-size="19"><tspan fill="#3fb950">gsoc@katana</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~/fs25/16x-map-fix</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#e6edf3">16xmapfix ./bigmap16.zip</tspan></text><text x="56" y="164" fill="#c9d1d9">&#9656; scan density layers</text><text x="640" y="164" fill="#8b949e">16384px <tspan fill="#e6edf3">found</tspan></text><text x="56" y="200" fill="#c9d1d9">&#9656; resample &#8594; 8192px  <tspan fill="#6e7681">(nearest-neighbour)</tspan></text><rect x="640" y="184" width="58" height="24" rx="5" fill="#238636"/><text x="669" y="201" fill="#e6edf3" text-anchor="middle" font-size="14" font-weight="700">OK</text><text x="56" y="236" fill="#c9d1d9">&#9656; heightmap  2&#8319;+1 grid</text><text x="640" y="236" fill="#39c5cf">left byte-exact</text><text x="56" y="272" fill="#c9d1d9">&#9656; fields &amp; crops</text><text x="640" y="272" fill="#39c5cf">preserved &#183; 99.9% pixel-identical</text><text x="56" y="322" fill="#8b949e" font-size="15" letter-spacing="1">// GIANTS' hidden multiplayer ceiling &#8212; closed</text><text x="56" y="384" font-size="46" font-weight="800"><tspan fill="#f85149">878,987</tspan><tspan fill="#6e7681" font-size="34">  &#9472;&#9472;&#9654;  </tspan><tspan fill="#3fb950">0</tspan><tspan fill="#8b949e" font-size="22" font-weight="600">  allocReg errors</tspan></text><text x="56" y="436" font-size="19"><tspan fill="#3fb950" font-weight="700">&#10003; playable in multiplayer</tspan><tspan fill="#8b949e">  &#183;  x4+ stable</tspan></text><text x="56" y="466" font-size="16" fill="#6e7681">the 262 GB dedicated server that still crashed? now runs on a 16 GB client.</text><text x="56" y="512" font-size="19"><tspan fill="#3fb950">gsoc@katana</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~/fs25/16x-map-fix</tspan><tspan fill="#8b949e">$ </tspan></text><rect x="470" y="497" width="11" height="20" fill="#3fb950"/></svg>
