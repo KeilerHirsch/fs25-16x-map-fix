@@ -15,7 +15,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
-from xml.sax.saxutils import quoteattr
+from xml.sax.saxutils import quoteattr  # nosec B406 -- quoteattr ESCAPES our own generated attribute value for safe XML output; it never parses untrusted input
 
 import vram
 

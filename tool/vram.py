@@ -24,7 +24,7 @@
 
 from __future__ import annotations
 
-import subprocess
+import subprocess  # nosec B404 -- only runs nvidia-smi with a fixed list-form argv (no shell); see nvidia_smi_vram_bytes
 
 #: Windows "Display adapters" device class.
 DISPLAY_CLASS_KEY = (
@@ -103,7 +103,7 @@ def registry_vram_bytes() -> int:
 def nvidia_smi_vram_bytes() -> int:
     """Total VRAM (bytes) of the largest NVIDIA GPU via nvidia-smi, or 0."""
     try:
-        result = subprocess.run(
+        result = subprocess.run(  # nosec B603 B607 -- nvidia-smi is a standard system tool resolved via PATH; fixed list-form argv, no shell, no untrusted input
             ["nvidia-smi", "--query-gpu=memory.total", "--format=csv,noheader,nounits"],
             capture_output=True,
             text=True,
